@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>fresh</title>
+    <style>
+        html,
+        body {
+            background-color: rgb(255, 255, 255);
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Roboto;
+        }
+
+        .buttons-nav {
+            margin: 20px;
+        }
+
+        .button.is-white:hover {
+            background-color: #F39200;
+            color: #363636;
+            border-color: #dbdbdb;
+        }
+
+        .image is-128x128 {
+            display: flex;
+        }
+
+        .cards-container {
+            display: flex;
+
+            justify-content: center;
+            gap: 40px;
+            padding: 60px 20px;
+        }
+
+        .card {
+            background: #ffffff;
+
+
+            width: 280px;
+            padding: 25px;
+            text-align: center;
+
+        }
+
+        
+
+
+
+        h3 {
+            margin: 10px 0;
+            font-size: 22px;
+            color: #333;
+        }
+
+        p {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 25px;
+
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .buttons button {
+            padding: 8px 14px;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+
+        /* #F39200
+#4FC1EA
+#444F60
+#FBFBFB
+#EFF4F7
+#444F60
+#66676B */
+
+
+        .button1 {
+            background-color: #4FC1EA;
+            color: #fff;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+
+        @media (max-width: 800px) {
+            .cards-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+
+    <!-- **************************** -->
+
+</head>
+
+<body>
+
+
+
+
+    <div class="buttons-nav">
+        <div class="is-pulled-right">
+            <button class="button is-white ">featuers</button>
+            <button class="button is-white">pricing</button>
+            <button class="button is-white">log in</button>
+            <button class="button is-white">sign up</button>
+        </div>
+
+
+    </div>
+
+
+
+    <figure class="image is-128x128" style="margin: 20px;">
+        <img src="logo-dark.svg" />
+    </figure>
+
+
+
+    <div>
+
+        <figure class="is-pulled-right mr-5" style="width: 500px; ;">
+            <img src="worker.svg" style="width: 100%; height: auto;" />
+        </figure>
+
+
+
+        <section class="hero is-primary" style="width: 50%; margin: 0 auto; background-color: aliceblue;">
+            <div class="hero-body" style="max-width: 450px; ">
+                <p class="title" style="padding: 10px;">manage and deploy your apps seamlessly</p>
+                <p class="subtitle" style="color: #b4a9a9;">lorem ipsum sit dolor amet dummy is textused by tyopgaphy
+                    industry
+                </p>
+
+                <button class="button is-link is-hovered" style="color: white; background-color: #4FC1EA;">git
+                    started</button>
+                <button class="button is-link is-inverted" style="color: #363636; background-color: #f9fdff;">Discover</button>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+    <div class="grid" style="margin: 300px; padding: 10px;  ">
+        <div class="cell" style="height: 150px ;width: 150px; margin:0px 50px;"><img src="systek.svg" alt=""></div>
+        <div class="cell" style="height: 150px ;width: 150px; margin:0px 50px"><img src="tribe.svg" alt=""></div>
+        <div class="cell" style="height: 150px ;width: 150px;margin:0px 50px"><img src="kromo.svg" alt=""></div>
+        <div class="cell" style="height: 150px ;width: 150px;margin:0px 50px"><img src="infinite.svg" alt=""></div>
+        <div class="cell" style="height: 150px ;width: 150px;margin:0px 50px"><img src="gutwork.svg" alt=""></div>
+    </div>
+
+
+
+    <section class="hero is-link ">
+        <div class="hero-body" style="background-color: rgb(255, 255, 255); margin-top: 0% ;">
+            <p class="title" style="text-align: center;color: black;">great power comes</p>
+            <p class="subtitle " style="text-align: center ; color: #b4a9a9;margin: 20px;">with great responsibility</p>
+        </div>
+    </section>
+
+    <!-- ************************************** -->
+
+
+    <div class="cards-container">
+        <div class="card">
+            <h3 style="margin-block-end: 20px;">App Builder</h3>
+            <div class="icon" style="width: 60px; height: 60px;">
+                <img src="web.svg" alt="App Icon" />
+            </div>
+
+
+            <p>This is some cool explanatory text<br>that is on two rows.</p>
+            <div class="buttons">
+                <button class="button1">Free Trial</button>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <h3 style="margin-block-end: 20px;">Cloud Integration</h3>
+            <div class="icon" style="width: 60px; height: 60px;">
+                <img src="rocket.svg" alt="App Icon" />
+            </div>
+
+            <p>This is some cool explanatory text<br>that is on two rows.</p>
+            <div class="buttons">
+                <button class="button1">get started</button>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <h3 style="margin-block-end: 20px;">Addons & Plugins</h3>
+            <div class="icon" style="width: 60px; height: 60px;">
+                <img src="light-bulb.svg" alt="App Icon" />
+            </div>
+
+            <p style="margin-block-end: 20px;">This is some cool explanatory text<br>that is on two rows.</p>
+            <div class="buttons">
+                <button class="button1">get started</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <section class="hero is-link ">
+        <div class="hero-body" style="background-color: rgb(255, 255, 255); margin-top: 0% ;">
+            <p class="title" style="text-align: center;color: black;">Awesome Features</p>
+            <p class="subtitle " style="text-align: center ; color: #b4a9a9;margin: 20px;">To make you super happy</p>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ******************** -->
+
+
+
+
+
+    <section style="margin: 300px auto 0 auto;" class="section">
+        <div class="container">
+            <div class="columns is-vcentered">
+
+
+
+
+
+                <div class="column is-half " style="margin-left: auto;">
+                    <h1 class="title" style="color: #000000; padding: 20px;">colloborat easily</h1>
+                    <p class="subtitle" style="max-width: 400px;">lorem ipsum sit dolor amet , consstrectur adipiscing
+                        elit . cum audissem Antiochum , Brute , ut solebam , cum M Quae diligentissime contra Aristonem
+                        dicuntur a Chryippo.
+                        industry</p>
+
+                </div>
+
+
+                <div class="column is-half">
+                    <figure class="image is-4by3">
+                        <img src="feature-1.webp" alt="Descriptive Alt Text">
+                    </figure>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ************* -->
+
+
+
+
+
+    <section style="margin: 300px auto 0 auto;" class="section">
+        <div class="container">
+            <div class="columns is-vcentered">
+
+
+                <div class="column is-half">
+                    <figure class="image is-4by3">
+                        <img src="feature-2.webp" alt="Descriptive Alt Text">
+                    </figure>
+                </div>
+
+
+                <div class="column is-half " >
+                    <h1 class="title" style="color: #000000; ">colloborat easily</h1>
+                    <p class="subtitle" style="max-width: 400px;">lorem ipsum sit dolor amet , consstrectur adipiscing
+                        elit . cum audissem Antiochum , Brute , ut solebam , cum M Quae diligentissime contra Aristonem
+                        dicuntur a Chryippo.
+                        industry</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ******************* -->
+
+    <section style="margin: 300px auto 0 auto; " class="section">
+        <div class="container">
+            <div class="columns is-vcentered">
+
+
+
+
+
+                <div class="column is-half">
+                    <h1 class="title" style="color: #000000; padding: 20px;">colloborat easily</h1>
+                    <p class="subtitle" style="max-width: 400px;">lorem ipsum sit dolor amet , consstrectur adipiscing
+                        elit . cum audissem Antiochum , Brute , ut solebam , cum M Quae diligentissime contra Aristonem
+                        dicuntur a Chryippo.
+                        industry</p>
+                </div>
+
+
+                <div class="column is-half">
+                    <figure class="image is-4by3">
+                        <img src="workers.svg" alt="Descriptive Alt Text">
+                    </figure>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************** -->
+
+
+
+    <section class="hero is-link ">
+        <div class="hero-body" style="background-color: rgb(255, 255, 255); margin-top: 0% ;">
+            <p class="title" style="text-align: center;color: black;">Wait , there is more </p>
+            <p class="subtitle " style="text-align: center ; color: #b4a9a9;margin: 20px;">To make you super happy</p>
+        </div>
+    </section>
+
+    <!-- *********************************** -->
+
+    <div class="fixed-grid has-4-cols"
+        style="margin: 100px auto 0 auto; max-width: 1200px; ; text-align: center">
+        <div class="grid  has-text-centerd" >
+            <div class="cell" style="text-align: center" >
+                <a href="#"><i class="fa-brands fa-node-js fa-2x"></i>
+                    <p style="align-items: center;    ;">Development</p>
+                </a>
+            </div>
+            <div class="cell">
+                <a href="#"><i class="fa-brands fa-python fa-2x"></i>
+                    <p style="align-items: center;">Development</p>
+                </a>
+            </div>
+            <div class="cell">Cell 3</div>
+            <div class="cell">Cell 4</div>
+            <div class="cell">Cell 5</div>
+            <div class="cell">Cell 6</div>
+            <div class="cell">Cell 7</div>
+            <div class="cell">Cell 8</div>
+            <div class="cell">Cell 9</div>
+            <div class="cell">Cell 10</div>
+            <div class="cell">Cell 11</div>
+            <div class="cell">Cell 12</div>
+        </div>
+    </div>
+
+
+
+
+
+
+<!-- ************************************** -->
+
+
+
+
+
+    <div class="container mt-6 column is-6  " >
+      <div class="columns is-mobile has-text-centered ">
+        
+        
+        <div class="column  ">
+          
+          <p class="subtitle is-6">Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scripentur has. Duo te consequat elaboraret, has quando suavitate at.</p>
+        </div>
+        
+        <div class="column ">
+          <p class="subtitle is-6">Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scripentur has. Duo te consequat elaboraret, has quando suavitate at.</p>
+        </div>
+        
+        
+        <div class="column ">
+          
+          <p class="subtitle is-6">Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scripentur has. Duo te consequat elaboraret, has quando suavitate at.</p>
+        </div>
+      </div>
+    </div>
+  
+
+<!-- ************************ -->
+
+
+  <section class="hero is-link ">
+    <div class="hero-body" style="background-color: rgb(255, 255, 255); margin-top: 0% ;">
+        <p class="title" style="text-align: center;color: black;">get startd </p>
+        <p class="subtitle " style="text-align: center ; color: #b4a9a9;margin: 20px;">choose one of our plans</p>
+    </div>
+</section>
+
+
+<!-- ............................. -->
+
+
+<section class="section">
+    <div class="columns is-centered has-text-centered">
+  
+    
+      <div class="column is-3">
+      
+        <p class="title is-4 has-text-black">starter</p>
+        <figure class="image is-128x128 is-inline-block mb-2">
+          <img src="1.svg" alt="Icon">
+        </figure>
+  
+        
+        <p class="title is-2 has-text-black">0$</p>
+        <p class="has-text-black">sign up . get some awesome featuers and get started now</p>
+        <button class="button is-primary has-background-white">get started</button>
+      </div>
+      
+      
+      <div class="column is-3">
+        <p class="title is-4 has-text-black">pro</p>
+        <figure class="image is-128x128 is-inline-block mb-2">
+            <img src="2.svg" alt="Icon">
+          </figure>
+        <p class="title is-2 has-text-black">15$</p>
+        <p class="has-text-black">sign up . get some awesome featuers and get started now</p>
+        <button class="button is-primary">get started</button>  
+    </div>
+  
+      
+      <div class="column is-3">
+        <p class="title is-4 has-text-black">Business</p>
+        <figure class="image is-128x128 is-inline-block mb-2">
+            <img src="3.svg" alt="Icon">
+          </figure>
+        <p class="title is-2 has-text-black">30$</p>
+        <p class="has-text-black">sign up . get some awesome featuers and get started now</p>
+        <button class="button is-primary has-background-white">get started</button> </div>
+  
+
+
+
+
+        <div>
+            
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ***************************** -->
+
+ <section class="hero is-link ">
+    <div class="hero-body" style="background-color: rgb(255, 255, 255); margin-top: 0% ;">
+        <p class="title" style="text-align: center;color: black;">Drop us alin ore two </p>
+        <p class="subtitle " style="text-align: center ; color: #b4a9a9;margin: 20px;">wed love to hear from you</p>
+    </div>
+</section> 
+
+
+<section class="section has-background-white">
+    <div class="container">
+  
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <form class="box has-background-white">
+  
+           
+            <div class="columns">
+              <div class="column">
+            <div class="field">
+           <label class="label has-text-black">first name</label>
+                  <div class="control">
+           <input class="input has-text-black has-background-white" type="email" placeholder="e.g. email1@example.com" />
+                  </div>
+              </div>
+              </div>
+  
+              <div class="column">
+                <div class="field">
+            <label class="label has-text-black">last name</label>
+          <div class="control">
+             <input class="input has-text-black has-background-white" type="email" placeholder="e.g. email2@example.com" />
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          
+            <div class="columns">
+              <div class="column">
+                <div class="field">
+                  <label class="label has-text-black">Email </label>
+          <div class="control">
+                    <input class="input has-text-black has-background-white" type="email" placeholder="e.g. email3@example.com" />
+                  </div>
+                </div>
+              </div>
+  
+          <div class="column">
+                <div class="field">
+                  <label class="label has-text-black">company</label>
+               <div class="control">
+                    <input class="input has-text-black has-background-white" type="password" placeholder="********" />
+                  </div>
+          </div>
+              </div>
+            </div>
+
+            <div class="box has-background-white">I'm in a box.</div>
+           
+            <div class="has-text-right">
+                <button class="button is-primary has-text-right">Sign in</button>
+              </div>
+
+  
+          </form>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+
+<footer>
+    <div class="container"></div>
+</footer>
+
+<div class="has-background-black">
+
+  <div class="columns has-text-centered has-text-b">
+    <div class="column"><figure class="image is-128x128">
+        <img src="/logo.svg" />
+      </figure></div>
+    <div class="column">product</div>
+    <div class="column">docs</div>
+    <div class="column">BLOGROLL</div>
+    <div class="column">FOLLOW US</div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
